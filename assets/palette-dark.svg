@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" width="1200" height="210" role="img" aria-label="设计语言色板">
+<defs><clipPath id="r"><rect width="1200" height="210" rx="20"/></clipPath></defs>
+<g clip-path="url(#r)"><rect width="1200" height="210" fill="#131635"/></g>
+<text x="48" y="34" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="3" fill="rgba(238,240,255,0.45)">DESIGN TOKENS</text>
+<text x="48" y="54" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="13" fill="rgba(238,240,255,0.45)">主色只出现在编号、下划线、进度；其余全靠发丝线和留白。</text>
+  <g transform="translate(48,66)">
+    <rect width="168" height="88" rx="14" fill="#f5f6fd" stroke="rgba(255,255,255,0.18)"/>
+    <text x="0" y="112" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="12" fill="#eef0ff">纸底 · Paper</text>
+    <text x="0" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="0.6" fill="rgba(238,240,255,0.45)">#F5F6FD</text>
+  </g>
+  <g transform="translate(232,66)">
+    <rect width="168" height="88" rx="14" fill="#16173a" stroke="rgba(255,255,255,0.18)"/>
+    <text x="0" y="112" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="12" fill="#eef0ff">墨色 · Ink</text>
+    <text x="0" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="0.6" fill="rgba(238,240,255,0.45)">#16173A</text>
+  </g>
+  <g transform="translate(416,66)">
+    <rect width="168" height="88" rx="14" fill="#5b6bf7"/>
+    <text x="0" y="112" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="12" fill="#eef0ff">强调色 · Accent</text>
+    <text x="0" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="0.6" fill="rgba(238,240,255,0.45)">#5B6BF7</text>
+  </g>
+  <g transform="translate(600,66)">
+    <rect width="168" height="88" rx="14" fill="#a6a5fe"/>
+    <text x="0" y="112" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="12" fill="#eef0ff">CodeX主色 · Lavender</text>
+    <text x="0" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="0.6" fill="rgba(238,240,255,0.45)">#A6A5FE</text>
+  </g>
+  <g transform="translate(784,66)">
+    <rect width="168" height="88" rx="14" fill="#2f8f6b"/>
+    <text x="0" y="112" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="12" fill="#eef0ff">通过 · Pass</text>
+    <text x="0" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="0.6" fill="rgba(238,240,255,0.45)">#2F8F6B</text>
+  </g>
+  <g transform="translate(968,66)">
+    <rect width="168" height="88" rx="14" fill="#a8701a"/>
+    <text x="0" y="112" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="12" fill="#eef0ff">警告 · Warn</text>
+    <text x="0" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" letter-spacing="0.6" fill="rgba(238,240,255,0.45)">#A8701A</text>
+  </g>
+<rect x="0.5" y="0.5" width="1199" height="209" rx="19.5" fill="none" stroke="rgba(255,255,255,0.18)"/>
+</svg>

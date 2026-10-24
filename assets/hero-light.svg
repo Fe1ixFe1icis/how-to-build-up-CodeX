@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="动手学 CodeX 部署 — 从环境自检到跑通第一个任务">
+<defs>
+  <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#aaa8ff"/><stop offset=".38" stop-color="#8b9bff"/><stop offset="1" stop-color="#5b6bf7"/>
+  </linearGradient>
+  <radialGradient id="g1"><stop offset="0" stop-color="#a6a5fe" stop-opacity=".44"/><stop offset="1" stop-color="#a6a5fe" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g2"><stop offset="0" stop-color="#5b6bf7" stop-opacity=".22"/><stop offset="1" stop-color="#5b6bf7" stop-opacity="0"/></radialGradient>
+  <filter id="haze" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0b0d26" flood-opacity="0.13"/>
+  </filter>
+  <clipPath id="round"><rect width="1200" height="420" rx="24"/></clipPath>
+</defs>
+
+<g clip-path="url(#round)">
+  <rect width="1200" height="420" fill="#f5f6fd"/>
+  <circle cx="1020" cy="10" r="235" fill="url(#g1)" filter="url(#haze)"/>
+  <circle cx="1140" cy="356" r="230" fill="url(#g2)" filter="url(#haze)"/>
+  <circle cx="150" cy="410" r="180" fill="url(#g1)" filter="url(#haze)" opacity=".5"/>
+</g>
+
+<!-- 品牌 -->
+<g transform="translate(64,54)">
+  <rect width="40" height="40" rx="12" fill="url(#brand)"/>
+  <text x="20" y="27" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" font-weight="700" fill="#ffffff" text-anchor="middle">&gt;_</text>
+</g>
+<text x="118" y="71" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="3.4" fill="#8b8dab">HANDS-ON SERIES</text>
+<text x="118" y="90" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="11.5" letter-spacing="0.4" fill="#5b6bf7">原型 v1.0</text>
+
+<!-- 标题 -->
+<text x="62" y="182" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="53" font-weight="600" letter-spacing="-2.2" fill="#16173a">动手学 <tspan fill="url(#brand)">CodeX</tspan> 部署</text>
+<text x="64" y="219" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="15.5" letter-spacing="0.2" fill="rgba(22,23,60,0.64)">从环境自检到跑通第一个任务</text>
+<text x="64" y="245" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="13" letter-spacing="0.2" fill="rgba(22,23,60,0.64)">把 CodeX 装进你自己的机器</text>
+
+<!-- 底部 meta -->
+<line x1="64" y1="330" x2="606" y2="330" stroke="rgba(22,23,60,0.09)"/>
+<text x="64" y="356" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="2.6" fill="#8b8dab">VANILLA HTML · CSS · JS</text>
+<text x="64" y="378" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="11.5" fill="rgba(22,23,60,0.64)" opacity=".8"></text>
+
+<!-- 卡片堆 -->
+<g transform="translate(700,84)">
+  <g transform="rotate(-4.2 188 126)">
+    <rect x="-14" y="-18" width="376" height="252" rx="18" fill="#ffffff" stroke="#d5d9fb" opacity=".5"/>
+  </g>
+  <g transform="rotate(-2.1 188 126)">
+    <rect x="-6" y="-8" width="376" height="252" rx="18" fill="#ffffff" stroke="#d5d9fb" opacity=".8"/>
+  </g>
+  <g filter="url(#soft)">
+    <rect width="376" height="252" rx="18" fill="#ffffff" stroke="#e6e8fd"/>
+  </g>
+  <text x="22" y="32" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" letter-spacing="2.4" fill="#5b6bf7">TASK 00 · 30 MIN</text>
+  <text x="22" y="64" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="19" font-weight="600" letter-spacing="-0.4" fill="#16173a">环境自检与安装</text>
+  <rect x="22" y="78" width="300" height="5" rx="2.5" fill="#ececfd"/>
+  <rect x="22" y="90" width="232" height="5" rx="2.5" fill="#ececfd"/>
+
+  <line x1="22" y1="112" x2="354" y2="112" stroke="rgba(22,23,60,0.09)"/>
+  <text x="22" y="132" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#5b6bf7">0.1</text>
+  <text x="54" y="132" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="12.5" fill="rgba(22,23,60,0.72)">配置要求</text>
+  <line x1="22" y1="142" x2="354" y2="142" stroke="rgba(22,23,60,0.09)"/>
+  <text x="22" y="162" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#5b6bf7">0.2</text>
+  <text x="54" y="162" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="12.5" fill="rgba(22,23,60,0.72)">安装依赖</text>
+  <line x1="22" y1="172" x2="354" y2="172" stroke="rgba(22,23,60,0.09)"/>
+  <text x="22" y="192" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#5b6bf7">0.3</text>
+  <text x="54" y="192" font-family="Inter,'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif" font-size="12.5" fill="rgba(22,23,60,0.72)">一键自检</text>
+
+  <text x="22" y="228" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" letter-spacing="1.8" fill="#8b8dab">CHECKLIST</text>
+  <rect x="92" y="221" width="196" height="3" rx="1.5" fill="#ececfd"/>
+  <rect x="92" y="221" width="49" height="3" rx="1.5" fill="url(#brand)"/>
+  <text x="354" y="228" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" text-anchor="end" fill="#8b8dab">1/4</text>
+</g>
+
+<rect x="0.5" y="0.5" width="1199" height="419" rx="23.5" fill="none" stroke="#e2e4f7"/>
+</svg>
