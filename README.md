@@ -3,13 +3,6 @@
   <img src="assets/hero-light.svg" alt="动手学 CodeX 部署 —— 从环境自检到跑通第一个任务" width="100%">
 </picture>
 
-<p align="center">
-  <img alt="single file" src="https://img.shields.io/badge/SINGLE_FILE-0_DEPENDENCY-5b6bf7?style=flat-square&labelColor=16173a">
-  <img alt="cards" src="https://img.shields.io/badge/CARDS-8-5b6bf7?style=flat-square&labelColor=16173a">
-  <img alt="sections" src="https://img.shields.io/badge/SECTIONS-22-5b6bf7?style=flat-square&labelColor=16173a">
-  <img alt="checks" src="https://img.shields.io/badge/CHECKS-40-5b6bf7?style=flat-square&labelColor=16173a">
-  <img alt="vanilla" src="https://img.shields.io/badge/VANILLA-HTML%20%C2%B7%20CSS%20%C2%B7%20JS-8b9bff?style=flat-square&labelColor=16173a">
-</p>
 
 > 一张卡就是一个 Task。翻过去，上一张会被「撕」下来贴到右侧；点开子项，细节框从卡里分裂出来；选中任意一句话，可以问 AI。
 
